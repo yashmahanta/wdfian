@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter Variable", system-ui, sans-serif;
+  background-color: #f8fafc;
+}
+
+pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.crop-dialog {
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-top: env(safe-area-inset-top);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-spin, .animate-pulse, .animate-ping {
+    animation: none;
+  }
+
+  .transition-all, .transition-transform, .transition-opacity, .transition-colors {
+    transition: none;
+  }
+}

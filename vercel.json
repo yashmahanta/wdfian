@@ -1,0 +1,6 @@
+{
+  "framework": "vite",
+  "functions": {
+    "api/solve.ts": { "maxDuration": 60 }
+  }
+}
